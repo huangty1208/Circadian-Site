@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>Car Tax</title>
+<script language="JavaScript">
+<!--
+
+function calc(){
+  var tax=0;
+  var total=0;
+ 
+  var i=document.taxform.price.selectedIndex;
+  var j=document.taxform.state.selectedIndex;
+  
+  var price=parseFloat(document.taxform.price.options[i].value);
+  var taxrate=document.taxform.state.options[j].value;
+                
+  tax=price*taxrate;
+  total=price+tax;
+                
+  document.taxform.display.value="Price: $"+price+"\rTax: $"+tax+"\rTotal: $"+total;
+}
+
+//-->
+</script>
+  </head>
+
+  <body>
+    Choose a car price and tax rate to see what you will be charged.
+    <form name="taxform">
+      <table border="0">
+        <tr>
+          <td>
+            Car Price
+          </td>
+
+          <td>
+            State sales tax rates
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <select name="price" onchange="calc()">
+              <option value="15000">15000</option>
+              <option value="20000">20000</option>
+              <option value="25000">25000</option>
+              <option value="30000">30000</option>
+              <option value="40000">40000</option>
+            </select>
+          </td>
+          <td>
+            <select name="state" onchange="calc()">
+              <option value=".029">Colorado 2.9%</option>
+              <option value=".0625">Illinois 6.25%</option>
+              <option value=".04">New York 4%</option>
+              <option value=".07">Rhode Island 7%</option>
+              <option value=".0825">Texas 8.25%</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <input type="reset" value="Clear Form" />
+        <br />  
+      <textarea name="display" rows="5" cols="35"></textarea>
+    </form>
+  </body>
+</html>
+

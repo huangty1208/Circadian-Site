@@ -1,0 +1,500 @@
+   15  ls
+   16  cd project/
+   17  ls
+   18  vi project.html 
+   19  vi project.html 
+   20  vi project.css
+   21  EXIT
+   22  exit
+   23  cd  /u/z/users/cs329e-fa15/huangty
+   24  ls
+   25  cd project/
+   26  ls
+   27  vi project.css 
+   28  ls
+   29  rm project.css
+   30  vi project.css
+   31  vi project.html
+   32  rm project.html 
+   33  vi project.html
+   34  history | grep for
+   35  for i in *;do chmod 644 $i; done
+   36  for i in *;do chmod 644 $i; done
+   37  vi project.h
+   38  vi project.html 
+   39  vi project.html 
+   40  vi project.html 
+   41  vi blank.html 
+   42  cd  /u/z/users/cs329e-fa15/huangty
+   43  ls
+   44  cd ..
+   45  ls
+   46  exit
+   47  cd  /u/z/users/cs329e-fa15/huangty
+   48  ls
+   49  mkdir hwk5
+   50  cd hwk5
+   51  vi hwk5.html
+   52  LS
+   53  ls
+   54  vi validate.js
+   55  ls
+   56  history | grep for
+   57  for i in *;do chmod 644 $i; done
+   58  cd ..
+   59  chmod 755 hwk5
+   60  cd hwk5
+   61  ls
+   62  cd ..
+   63  ls
+   64  vi index.html 
+   65  cd  /u/z/users/cs329e-fa15/huangty
+   66  ls
+   67  cd hwk5/
+   68  ls
+   69  vi validate.js 
+   70  rm validate.js 
+   71  vi validate.js
+   72  for i in *;do chmod 644 $i; done
+   73  ls
+   74  rm validate.js 
+   75  vi validate.js
+   76  for i in *;do chmod 644 $i; done
+   77  exit
+   78  cd  /u/z/users/cs329e-fa15/huangty
+   79  ls
+   80  mkdir hwk6
+   81  chmod 755 hwk6
+   82  cd hwk6
+   83  ls
+   84  vi hwk6.html
+   85  vi hwk6.js
+   86  for i in *;do chmod 644 $i; done
+   87  ls
+   88  cd ..
+   89  vi index.html 
+   90  cd hwk6
+   91  ls
+   92  vi hwk6.html 
+   93  cd  /u/z/users/cs329e-fa15/huangty
+   94  ls
+   95  mkdir hwk7
+   96  chmod 755 hwk7
+   97  vi index.html 
+   98  cd hwk7
+   99  ls
+  100  vi hwk7.html
+  101  ls
+  102  vi hwk7.html
+  103  ls
+  104  vi hwk7.js
+  105  vi hwk7.css
+  106  rm vi hwk7.html
+  107  rm hwk7.html
+  108  ls
+  109  rm hwk7.js
+  110  rm hwk7.css
+  111  vi hwk7.html
+  112  vi hwk7.CSS
+  113  vi hwk7.css
+  114  vi hwk7.js
+  115  for i in *;do chmod 644 $i; done
+  116  ls
+  117  vi hwk7.html
+  118  vi hwk7.css
+  119  vi hwk7.css
+  120  vi hwk7.css
+  121  vi hwk7.css
+  122  EXIT
+  123  exit
+  124  cd  /u/z/users/cs329e-fa15/huangty
+  125  ls
+  126  mkdir hwk8
+  127  cp /u/z/users/mitra/
+  128  cp /u/z/users/mitra
+  129  cd /u/z/users/mitra
+  130  ls
+  131  cd FL2015/
+  132  ls
+  133  cd dhtml
+  134  ls
+  135  cd  /u/z/users/cs329e-fa15/huangty
+  136  ls
+  137  cd hwk8
+  138  ls
+  139  cp /u/z/users/mitra/FL2015/dhtml/dragNDrop.html
+  140  cp /u/z/users/mitra/FL2015/dhtml/dragNDrop.html . 
+  141  cp /u/z/users/mitra/FL2015/dhtml/dragNDrop.js .
+  142  cp -R /u/z/users/mitra/FL2015/Images/hwk8/* .
+  143  ls
+  144  cd images1
+  145  ls
+  146  cd ..
+  147  cd  /u/z/users/cs329e-fa15/huangty
+  148  ls
+  149  cd ..
+  150  ls
+  151  cd  /u/z/users/cs329e-fa15/huangty
+  152  ls
+  153  cd hwk8
+  154  ls
+  155  rm dragNDrop.*
+  156  ls
+  157  cd ..
+  158  ls
+  159  chmod 755 hwk8
+  160  vi index.html 
+  161  cd hwk8
+  162  for i in *;do chmod 644 $i; done
+  163  ls
+  164  chmod 755 images*
+  165  cd images1
+  166  for i in *;do chmod 644 $i; done
+  167  cd ..
+  168  cd images2
+  169  for i in *;do chmod 644 $i; done
+  170  cd ..
+  171  cd images3
+  172  for i in *;do chmod 644 $i; done
+  173  cd ..
+  174  ls
+  175  cd ..
+  176  ls
+  177  cd hwk8
+  178  ls
+  179  vi jigsaw.html
+  180  vi jigsaw.html
+  181  vi jigsaw.html
+  182  cd ..
+  183  ls
+  184  cd ..
+  185  ls
+  186  exit
+  187  cd  /u/z/users/cs329e-fa15/huangty
+  188  ls
+  189  cd hwk8
+  190  ls -l
+  191  cd ..
+  192  ls
+  193  cd  /u/z/users/cs329e-fa15/huangty
+  194  ls
+  195  mkdir hwk9
+  196  chdmo 755 hwk9
+  197  chmod 755 hwk9
+  198  vi index.html 
+  199  LS
+  200  ls
+  201  cd hwk9
+  202  ls
+  203  vi hwk9.html
+  204  vi hwk9.css
+  205  vi hwk9.js
+  206  rm hwk9.js
+  207  vi hwk9.js
+  208  for i in *;do chmod 644 $i; done
+  209  EXIT
+  210  exit
+  211  cd  /u/z/users/cs329e-fa15/huangty
+  212  ls
+  213  vi index.html 
+  214  cd project/
+  215  ls
+  216  rm project.css
+  217  rm project.html
+  218  vi project.html
+  219  vi project.css
+  220  vi interior1.html
+  221  for i in *;do chmod 644 $i; done
+  222  ls
+  223  cd ..
+  224  ls
+  225  cd project/
+  226  ls
+  227  cd ..
+  228  ls
+  229  mkdir hwk10
+  230  ls
+  231  cd hwk10
+  232  ls
+  233  vi hwk10.html
+  234  vi hwk10.php
+  235  for i in *;do chmod 644 $i; done
+  236  cd ..
+  237  chmod 755 hwk10
+  238  ls
+  239  vi index.html 
+  240  cd hwk10
+  241  ls
+  242  vi hwk10.html
+  243  ls
+  244  vi info.txt
+  245  ls
+  246  ls
+  247  vi info.txt 
+  248  vi hwk10.html
+  249  vi hwk10.php
+  250  for i in *;do chmod 644 $i; done
+  251  chmod 666 info.txt
+  252  ls
+  253  ls
+  254  vi info.txt 
+  255  cd  /u/z/users/cs329e-fa15/huangty
+  256  ls
+  257  vi comments.html
+  258  vi comments.php
+  259  vi comments.txt
+  260  chmod 666 comments.txt
+  261  for i in *;do chmod 644 $i; done
+  262  chmod 666 comments.txt
+  263  ls
+  264  for i in hwk*;do chmod 755 $i; done
+  265  chmod 755 project
+  266  ls
+  267  vi comments.html
+  268  exit
+  269  cd  /u/z/users/cs329e-fa15/huangty
+  270  ls
+  271  cd  /u/z/users/cs329e-fa15/huangty
+  272  ls
+  273  cd hwk10
+  274  ls
+  275  rm hwk10.html
+  276  vi hwk10.html
+  277  rm hwk10.php
+  278  vi hwk10.php
+  279  vi hwk10.html
+  280  rm hwk10.php
+  281  vi login.php
+  282  vi login.css
+  283  vi signup.txt
+  284  ls
+  285  vi hwk10.html
+  286  vi login.php
+  287  for i in *;do chmod 644 $i; done
+  288  chmod 666 signup.txt
+  289  ls
+  290  ls
+  291  rm hwk10.html
+  292  vi hwk10.html
+  293  rm login.php
+  294  vi login.php
+  295  vi signup.txt 
+  296  for i in *;do chmod 644 $i; done
+  297  chmod 666 signup.txt
+  298  vi hwk10.html
+  299  ls
+  300  vi hwk10.html
+  301  vi hwk10.html
+  302  vi hwk10.html
+  303  vi test.html
+  304  cdmod 644 test.html
+  305  ls
+  306  chmod 644 test.html
+  307  vi test.html
+  308  vi test.html
+  309  vi test.php
+  310  ls
+  311  chmod 644 test.php
+  312  rm hwk10.html 
+  313  vi hwk10.php
+  314  chmod 644 hwk10.php 
+  315  cd ..
+  316  ls
+  317  vi index
+  318  ls
+  319  vi index.html 
+  320  ls
+  321  cd hwk10
+  322  ls
+  323  rm text*
+  324  rm test*
+  325  ls
+  326  vi signup.txt 
+  327  cd..
+  328  cd ..
+  329  ls
+  330  vi project
+  331  cd project/
+  332  ls
+  333  vi project.css
+  334  exit
+  335  cd  /u/z/users/cs329e-fa15/huangty
+  336  ls
+  337  cd ..
+  338  ls
+  339  exit
+  340  cd  /u/z/users/cs329e-fa15/huangty
+  341  ls
+  342  mkdir sql
+  343  cd sql
+  344  mysql --help
+  345  mysql -h z.cs.utexas.edu -u huangty -p
+  346  cd
+  347  cd
+  348  ls -8
+  349  ls -a
+  350  pwd
+  351  cd  /u/z/users/cs329e-fa15/huangty
+  352  ls -a
+  353  cd .zinfo
+  354  cat .zinfo
+  355  which mysql
+  356  mysql -h z.cs.utexas.edu -u huangty -p
+  357  mysql -h z.cs.utexas.edu -u huangty -p
+  358  mysql -h z.cs.utexas.edu -u cs329e_huangty -p
+  359  mysql -h z.cs.utexas.edu -u huangty -p
+  360  mysql -h z.cs.utexas.edu -u huangty -p
+  361  cat .zinfo
+  362  mysql -h z.cs.utexas.edu -u huangty -p
+  363  mysql -h z.cs.utexas.edu -u huangty -p
+  364  mysql -h z.cs.utexas.edu -u huangty -p
+  365  mysql -h z.cs.utexas.edu -u huangty -p
+  366  mysql -h fall-2015.cs.utexas.edu -u huangty -p
+  367  mysql -h fall-2015.cs.utexas.edu -u huangty -p
+  368  mysql -h fall-2015.cs.utexas.edu -u huangty -p
+  369  mysql -h fall-2015.cs.utexas.edu -u huangty -p
+  370  cd  /u/z/users/cs329e-fa15/huangty
+  371  ls
+  372  vi index.html 
+  373  EXIT
+  374  exit
+  375  cd  /u/z/users/cs329e-fa15/huangty
+  376  ls
+  377  mkdir hwk11
+  378  vi hwk11.html
+  379  vi login.php
+  380  vi logincheck.php
+  381  vi register.php
+  382  vi registercheck.php
+  383  vi passwd.txt
+  384  ls
+  385  mv hwk11.html /hwk11
+  386  mv hwk11.html \hwk11
+  387  ls
+  388  mv login.php \hwk11
+  389  mv logincheck.php \hwk11
+  390  mv register.php \hwk11
+  391  mv registercheck.php \hwk11
+  392  mv passwd.txt \hwk11
+  393  ls
+  394  chmod 755 hwk11
+  395  ls
+  396  cd hwk11
+  397  ls
+  398  chmod 644 *
+  399  ls
+  400  chmod 666 passwd.txt
+  401  ls
+  402  cd ..
+  403  vi index.html 
+  404  cd  /u/z/users/cs329e-fa15/huangty
+  405  cat .zinfo
+  406  mysql -h fall-2015.cs.utexas.edu -u huangty -p
+  407  history > record.txt
+  408  vi dbs.php
+  409  ls
+  410  vi dbs.php 
+  411  pwd
+  412  vi dbs.php 
+  413  cat .zinfo
+  414  vi pwd.txt
+  415  pwd
+  416  vi dbs.php 
+  417  vi dbs.php 
+  418  cd ..
+  419  pwd
+  420  cd .
+  421  ls
+  422  pwd
+  423  cd .
+  424  cd .
+  425  ls
+  426  pwd
+  427  cd ..
+  428  cd ..
+  429  ls
+  430  cd ..
+  431  pwd
+  432  vi psw.txt
+  433  pwd
+  434  vi psw.txt
+  435  pwd
+  436  cd  /u/z/users/cs329e-fa15/huangty
+  437  vi dbs.php 
+  438  chmod 644 dbs.php
+  439  cat .zinfo
+  440  vi dbs.php 
+  441  vi dbs.php 
+  442  vi dbs.php 
+  443  cd /u/huangty/
+  444  ls
+  445  chmod 644 psw.txt
+  446  vi psw.txt 
+  447  cd  /u/z/users/cs329e-fa15/huangty
+  448  vi dbs.php 
+  449  vi dbs.php 
+  450  exit
+  451  cd  /u/z/users/cs329e-fa15/huangty
+  452  ls
+  453  vi index.html 
+  454  cd  /u/z/users/cs329e-fa15/huangty
+  455  ls
+  456  cd hwk11
+  457  ls
+  458  exit
+  459  cd  /u/z/users/cs329e-fa15/huangty
+  460  ls
+  461  mkdir hwk12
+  462  chmod 755 hwk12
+  463  cd hwk12
+  464  ls
+  465  vi hwk12.html
+  466  vi logincheck.php
+  467  vi quiz.php
+  468  vi passwd.txt
+  469  vi results.txt
+  470  ls
+  471  chmod 644 *
+  472  cd ..
+  473  vi index.html 
+  474  cd hwk12
+  475  ls
+  476  chmod 666 results.txt 
+  477  cd .
+  478  ls
+  479  cd ..
+  480  ls
+  481  cd hwk11
+  482  ls
+  483  chmod 666 passwd.txt
+  484  cd .
+  485  cd ..
+  486  ls
+  487  cd ..
+  488  la
+  489  la
+  490  ls
+  491  cd luping/
+  492  ls
+  493  cd hwk11
+  494  ls
+  495  cat login.php
+  496  cd ..
+  497  ls
+  498  cd hwk12
+  499  ls
+  500  vi login.php 
+  501  history -> record.txt
+  502  history > record.txt
+  503  ls
+  504  cd  /u/z/users/cs329e-fa15/huangty
+  505  ls
+  506  mkdir dbase
+  507  chmod 777 dbase 
+  508  cd dbase/
+  509  LS
+  510  ls
+  511  vi passwd.txt
+  512  ls
+  513  chmod 444 passwd.txt 
+  514  history > record.txt

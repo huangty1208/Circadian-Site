@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Payment Form</title>
+<script language="javascript">
+<!--
+
+function total() {
+  var subtotal=0;
+  var total=0;
+  var adjustment=1;
+  payment=false;
+  
+  var elmnts=document.payform.elements;
+
+  for(var x=0 ; x<=3 ; x++) {
+    if (elmnts[x].checked) {
+      subtotal=subtotal+parseFloat(elmnts[x].value);
+    }
+  }
+  
+  for(var x=4 ; x<= 8 ; x++) {
+    if (elmnts[x].checked) {
+      adjustment=elmnts[x].value;
+      payment=true;
+    }
+  }
+  
+  if(payment) {
+    total=subtotal*adjustment;
+    document.payform.display.value="Subtotal: "+subtotal
+                                   +"\rAdjustment: "+adjustment
+                                   +"\rTotal: "+total;
+  }
+  else {
+    window.alert("Please choose payment type.");
+  }
+
+}
+
+//-->
+</script>
+  </head>
+
+  <body>
+    <form name="payform">
+      <table border="0" cellpadding="5">
+        <tr>
+          <td width="400" valign="top">
+              <b>Items with Neem on Sale</b><br />
+            <input type="checkbox" name="item" value="4.99" /> Hand Soap $4.99<br />
+            <input type="checkbox" name="item" value="6.99" /> Tooth Powder $6.99<br />
+            <input type="checkbox" name="item" value="8.99" /> Body Lotion $8.99<br />
+            <input type="checkbox" name="item" value="12.99" /> Shampoo with Conditioner $12.99<br /><br />
+              <b>Choose Payment Method</b><br />
+            <input type="radio" name="pay" value="1.2" /> Money Order (20% service charge)<br />
+            <input type="radio" name="pay" value="1.1" /> Personal Check (10% service charge)<br />
+            <input type="radio" name="pay" value=".8" /> Visa (Preferred--20% discount)<br />
+            <input type="radio" name="pay" value=".9" /> MasterCard (10% discount)<br />
+            <input type="radio" name="pay" value=".9" /> Discover (10% discount)
+              <br /><br />
+            <input type="button" value="Process Order" onclick="total()" /> 
+            <input type="reset" value="Reset Form" />
+          </td>
+          <td width="200" valign="bottom">
+            <textarea name="display" rows="5" cols="35"></textarea>
+          </td>
+        </tr> 
+      </table>
+    </form>
+  </body>
+</html>

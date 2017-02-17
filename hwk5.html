@@ -1,0 +1,46 @@
+<html>
+<head>
+<title> Form Validation </title>
+<script type ="text/javascript" src = "./validate.js"></script>
+</head>
+
+<body>
+<h3> Register Form </h3>
+<ul>
+<li> The user name must be between 6 and 10 characters long. </li>
+<li> The user name must begin with a letter. </li>
+<li> The user name must contain only letters and digits. </li>
+<li> The password and the repeat password must match. </li>
+<li> The password must be between 6 and 10 characters. </li>
+<li> The password can contain only letters, digits and underscores. </li>
+<li> The password must have at least one lower case letter, at
+     least one upper case letter, and at least one digit. </li>
+</ul>
+
+<form id = "textForm" method = "post"
+ action = "http://www.cknuckles.com/cgi/echo.cgi"
+ onsubmit = "return validate();" >
+<table border = "0">
+<tr>
+<td> Name </td>
+<td> <input type = "text" name = "userName" /></td>
+</tr>
+<tr>
+<td> Password </td>
+<td> <input type = "password" name = "psw" /></td>
+</tr>
+<tr>
+<td> Password Confirm</td>
+<td> <input type = "password" name = "pswCon" /></td>
+</tr>
+<tr>
+<td><br></td>
+</tr>
+<tr>
+<td> <input type = "submit" value = "Register" /></td>
+<td> <input type = "reset" value = "Clear" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
